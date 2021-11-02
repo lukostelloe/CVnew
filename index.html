@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke Costelloe CV</title>
+    <link rel="stylesheet" href="CV.css" />
+    <script src="CV.js"></script>
+  </head>
+
+  <body>
+    <ul>
+      <li class="LC">Luke Costelloe</li>
+
+      <li>
+        <a href="https://github.com/lukostelloe" target="_blank">GitHub</a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/luke-costelloe-7a88b7139/"
+          target="_blank"
+          >Linkedin</a
+        >
+      </li>
+      <li><a href="mailto:lukostelloe@gmail.com" target="_blank">Email</a></li>
+    </ul>
+
+    <!-- HEADER -->
+
+    <header class="header">
+      <h2 id="headername">Luke Costelloe</h2>
+      <h3>Junior Web Developer</h3>
+      <p>30 ans, 13 Boulevard Carnot Nice 06300, 0644879902</p>
+    </header>
+    <h3 class="welcomeline">Welcome to my page!</h3>
+    <div id="grid">
+      <div class="aboutme">
+        <h2 class="heading">A little bit about me</h2>
+        <p>
+          I'm currently training to create websites that are simple yet
+          beautiful. Interactive. A website that actually says something about
+          who you are and what you do. If you have a new idea, whether business,
+          social, artistic or otherwise, I want to make a website for you! Have
+          a look around and hopefully I'll hear from you soon.
+        </p>
+      </div>
+
+      <div class="progress">
+        <h2 class="heading">Languages</h2>
+        <div>
+          <div class="progressbar">
+            <div>
+              <h2>French</h2>
+            </div>
+            <progress class="progressbars" value="80" max="100"></progress>
+            <div>
+              <h2>English</h2>
+              <progress class="progressbars" value="100" max="100"></progress>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experpro">
+        <h2 class="experience">Expérience Professionnelle</h2>
+        <p>
+          Juin 2020 - Septembre 2020 Waiter / Barman - DZ , Tallard , Hautes -
+          Alpes
+        </p>
+        <p>Août 2018 - Dccember 2019 Barman - Ma Nolan's , Nice , 06</p>
+        <p>Mars 2017 - April 2018 Laboratory Technician - NVRL , Dublin</p>
+      </div>
+
+      <div class="competences">
+        <h2>Technologies</h2>
+        <div class="complogos">
+          <img class="clogos" src="html5logo.jpg" />
+          <p class="descriptions">Beautifully designed websites with HTML</p>
+          <img class="clogos" src="css3logo.jpg" />
+          <p class="descriptions">Subtle but impressive stylings with CSS</p>
+          <img class="clogos" src="javascriptlogo.jpg" />
+          <p class="descriptions">Intuitive and fun interactions with JS</p>
+          <img class="clogos" src="bootstraplogo.jpg" />
+          <p class="descriptions">Fast results with bootstrap</p>
+        </div>
+      </div>
+
+      <section class="quote">
+        <h2>Testimonials</h2>
+        <div id="quotes">
+          <div class="faces">
+            <div class="container">
+              <img
+                src="abdiel.jpg"
+                alt="Avatar"
+                class="image"
+                style="width: 50%"
+              />
+              <div class="middle">
+                <div class="text">"I'm so happy with the service!" Abdiel</div>
+              </div>
+            </div>
+
+            <div class="container">
+              <img
+                src="dimitri.JPG"
+                alt="Avatar"
+                class="image"
+                style="width: 50%"
+              />
+              <div class="middle">
+                <div class="text">
+                  "Luke is a pleasure to work with!" Dimitri
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <img
+                src="kevin.png"
+                alt="Avatar"
+                class="image"
+                style="width: 50%"
+              />
+              <div class="middle">
+                <div class="text">"Excellent service, thank you" Kevin</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="questionform">
+        <h2 class="heading">Contact me</h2>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="First Name"
+          />
+
+          <label for="lname">Last Name</label>
+          <!-- <br /> -->
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Last name"
+          />
+          <!-- <br /> -->
+
+          <label for="email">Email</label>
+          <!-- <br /> -->
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+          />
+          <!-- <br /> -->
+
+          <label for="country">Country</label>
+          <!-- <br /> -->
+          <select id="country" name="country">
+            <option value="france">France</option>
+            <option value="canada">Ireland</option>
+            <option value="usa">USA</option>
+            <option value="UK">UK</option>
+            <option value="australie">Australia</option>
+          </select>
+          <!-- <br /> -->
+          <label for="subject">Subject</label>
+          <!-- <br /> -->
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something"
+            style="height: 100px"
+            maxlength="500"
+            ;
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        Luke Costelloe - 2021
+        <a href="mailto:lukostelloe@gmail.com">lukostelloe@gmail.com</a>
+        <img class="htmlcssjs" src="theselogos.png" />
+        <img class="photoshoplogo" src="ps.png" />
+      </p>
+    </footer>
+  </body>
+</html>
